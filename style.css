@@ -1,0 +1,64 @@
+body {
+    background: rgb(241, 245, 248);
+}
+.container {
+    background: rgb(255, 255, 255);
+    height: auto;
+    width: 450px;
+    border-radius: 6px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 1px 14px;
+    align-items: center;
+}
+.header{
+    color:rgb(15, 51, 82);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.form-control {
+    border: 2px solid rgb(27, 102, 168);
+}
+.d-flex {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bi-pencil-square {
+    color: rgb(32, 184, 32);
+}
+.bi-trash {
+    color: red;
+}
+button {
+    border: none;
+    background: none;
+}
+
+.clear-btn {
+    color: red;
+    
+}
+
+.title {
+    color:rgb(15, 51, 82);
+    margin-left: 30px;
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.edit-btn {
+    margin-left: 60%;
+}
+.grocery-container {
+    visibility: hidden;
+}
+.alert {
+    width: auto;
+    top: 10px;
+    background: rgba(255, 149, 149, 0.767);
+    color: red;
+    visibility: hidden;
+}
