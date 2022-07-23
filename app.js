@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
 
 let formValidation = () => {
   if (input.value === "") {
-    msg.innerHTML = "Input cannot be blank";
+    msg.innerHTML = "Item cannot be empty";
     console.log("failure");
   } else {
     console.log("successs");
